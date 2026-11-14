@@ -3,8 +3,8 @@
 Guía para correr **v15** o **v21** en el móvil con Termux y consumir los streams desde la TV o TVBox usando la IP del móvil.
 
 Archivos listos:
-- `v15-termux.js` — versión ligera (streaming directo de segmentos)
-- `v21-termux.js` — versión con prefetch, pin y delay automático
+- `v15.js` — versión ligera (streaming directo de segmentos)
+- `v21.js` — versión con prefetch, pin y delay automático
 
 Solo se usa **uno u otro** a la vez (mismo puerto 3000).
 
