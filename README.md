@@ -213,7 +213,7 @@ PORT=3001 node v15-termux.js
 ## 9. Flujo típico
 
 1. Móvil en WiFi de casa  
-2. Termux → `cd ~/vavoo && termux-wake-lock && node v15-termux.js`  
+2. Termux → `cd ~/vavoo && termux-wake-lock && node v15.js`  
 3. Anotas la IP (`192.168.x.x`)  
 4. En la TV: lista `http://192.168.x.x:3000/lista`  
 5. Al terminar: Ctrl+C y `termux-wake-unlock`
