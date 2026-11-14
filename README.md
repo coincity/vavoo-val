@@ -226,3 +226,5 @@ PORT=3001 node v15-termux.js
 - Consume batería y datos del móvil; conviene WiFi + cargador.
 - No expongas el puerto a internet (solo red local).
 - Los nombres de canal aceptan variantes (`historia.b`, `HISTORIA.B`, etc.).
+
+## TAMBIEN SE PUEDE INSTALAR CON CLONE MÁS FACILMENTE
