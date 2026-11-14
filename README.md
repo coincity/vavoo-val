@@ -53,21 +53,21 @@ cd ~/vavoo
 
 Copia ahí:
 
-- `v15-termux.js`
-- `v21-termux.js`
+- `v15.js`
+- `v21.js`
 
 Formas fáciles de pasarlos al móvil:
 
 1. Pegar con el editor de Termux:
    ```bash
-   nano v15-termux.js
+   nano v15.js
    # pega el contenido → Ctrl+O → Enter → Ctrl+X
    ```
 2. Desde almacenamiento interno:
    ```bash
    termux-setup-storage
-   cp /sdcard/Download/v15-termux.js ~/vavoo/
-   cp /sdcard/Download/v21-termux.js ~/vavoo/
+   cp /sdcard/Download/v15.js ~/vavoo/
+   cp /sdcard/Download/v21.js ~/vavoo/
    ```
 3. Git / SCP desde el PC
 
@@ -83,14 +83,14 @@ Formas fáciles de pasarlos al móvil:
 
 ```bash
 cd ~/vavoo
-node v15-termux.js
+node v15.js
 ```
 
 **Versión v21** (prefetch + pin + delay):
 
 ```bash
 cd ~/vavoo
-node v21-termux.js
+node v21.js
 ```
 
 Deberías ver:
@@ -103,7 +103,7 @@ Vavoo Proxy v15 listo en el puerto 3000
 
 ```bash
 termux-wake-lock
-node v15-termux.js
+node v15.js
 ```
 
 Al terminar:
@@ -167,7 +167,7 @@ http://192.168.1.45:3000/live?ch=daznliga
 |-----|----------|
 | `/lista` | Lista M3U |
 | `/channels` | JSON canales locales + Spain |
-| `/find?ch=historia` | Buscar canal |
+| `/find?ch=historia.b` | Buscar canal |
 | `/debug?ch=historia.b` | Diagnóstico |
 | `/live?ch=...` | Manifest HLS |
 
